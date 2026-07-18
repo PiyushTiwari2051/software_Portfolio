@@ -33,7 +33,7 @@
 
 ---
 
-# 📟 &nbsp;System Bio Terminal
+📟 &nbsp;System Bio Terminal
 
 ```bash
 piyush@cockpit:~$ neofetch --profile
@@ -82,7 +82,7 @@ piyush@cockpit:~$ neofetch --profile
 
 ---
 
-## 🚀 &nbsp;Featured Shipments
+#  &nbsp;Featured Shipments
 
 <table>
   <thead>
@@ -233,7 +233,7 @@ piyush@cockpit:~$ neofetch --profile
 
 ---
 
-# 🧠 &nbsp;DSA Progress Dashboard
+#  &nbsp;DSA Progress Dashboard
 
 <div align="center">
   <img width="60%" src="https://leetcard.jacoblin.cool/PIY001?theme=dark&font=Fira+Code&border=0&radius=12&ext=heatmap" alt="LeetCode Progress" />
