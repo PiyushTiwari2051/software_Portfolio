@@ -55,7 +55,7 @@ piyush@cockpit:~$ neofetch --profile
 
 ---
 
-# 🛠️ &nbsp;Tech Stack Motherboard
+## 🛠️ &nbsp;Tech Stack Motherboard
 
 ```text
 ┌─────────────────────────────────────────────────────────────┐
@@ -82,7 +82,7 @@ piyush@cockpit:~$ neofetch --profile
 
 ---
 
-#  &nbsp;Featured Shipments
+##  &nbsp;Featured Shipments
 
 <table>
   <thead>
@@ -174,7 +174,7 @@ piyush@cockpit:~$ neofetch --profile
 
 ---
 
-# 💼 &nbsp;Experience Timeline
+## 💼 &nbsp;Experience Timeline
 
 * **Campus Ambassador** | **E-Cell IIT Bombay** *(Jul 2026 — Present)*
   * Representing and promoting tech-entrepreneurship and start-up workshops across campus.
@@ -202,7 +202,7 @@ piyush@cockpit:~$ neofetch --profile
 
 ---
 
-# 📊 &nbsp;GitHub Analytics Cockpit
+## 📊 &nbsp;GitHub Analytics Cockpit
 
 <table width="100%">
   <tr>
@@ -233,7 +233,7 @@ piyush@cockpit:~$ neofetch --profile
 
 ---
 
-#  &nbsp;DSA Progress Dashboard
+##  &nbsp;DSA Progress Dashboard
 
 <div align="center">
   <img width="60%" src="https://leetcard.jacoblin.cool/PIY001?theme=dark&font=Fira+Code&border=0&radius=12&ext=heatmap" alt="LeetCode Progress" />
@@ -246,7 +246,7 @@ piyush@cockpit:~$ neofetch --profile
 
 ---
 
-# 🐍 &nbsp;Contribution Snake
+## 🐍 &nbsp;Contribution Snake
 
 <div align="center">
   <picture>
