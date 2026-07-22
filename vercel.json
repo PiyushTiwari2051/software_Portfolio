@@ -1,4 +1,5 @@
 {
+  "cleanUrls": false,
   "rewrites": [
     { "source": "/cloud-sales", "destination": "/cloud-sales.html" },
     { "source": "/caelius", "destination": "/caelius.html" },
