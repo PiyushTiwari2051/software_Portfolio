@@ -1,4 +1,7 @@
 {
-  "cleanUrls": true,
-  "trailingSlash": false
+  "rewrites": [
+    { "source": "/cloud-sales", "destination": "/cloud-sales.html" },
+    { "source": "/caelius", "destination": "/caelius.html" },
+    { "source": "/recruit-crm", "destination": "/recruit-crm.html" }
+  ]
 }
