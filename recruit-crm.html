@@ -184,13 +184,15 @@
           <span class="code-cmt"># crm_agent.py</span><br>
           <span class="code-kw">class</span> RecruitCRMAgent:<br>
           &nbsp;&nbsp;<span class="code-kw">def</span> __init__(self):<br>
-          &nbsp;&nbsp;&nbsp;&nbsp;self.name = <span class="code-str">"Piyush Tiwari"</span><br>
-          &nbsp;&nbsp;&nbsp;&nbsp;self.languages = [<span class="code-str">"Java"</span>, <span class="code-str">"Python"</span>, <span class="code-str">"JavaScript"</span>]<br>
-          &nbsp;&nbsp;&nbsp;&nbsp;self.focus = [<span class="code-str">"SaaS Backend"</span>, <span class="code-str">"AI/ML Pipelines"</span>, <span class="code-str">"Scale"</span>]<br><br>
-          &nbsp;&nbsp;<span class="code-kw">def</span> run(self):<br>
-          &nbsp;&nbsp;&nbsp;&nbsp;print(<span class="code-str">"Ready to compile, test, and ship modular features!"</span>)<br><br>
+          &nbsp;&nbsp;&nbsp;&nbsp;self.stack = [<span class="code-str">"Java"</span>, <span class="code-str">"Python"</span>, <span class="code-str">"Django"</span>, <span class="code-str">"Ruby"</span>]<br>
+          &nbsp;&nbsp;&nbsp;&nbsp;self.tools = [<span class="code-str">"Maven"</span>, <span class="code-str">"Ant"</span>, <span class="code-str">"SVN"</span>, <span class="code-str">"Git"</span>]<br><br>
+          &nbsp;&nbsp;<span class="code-kw">def</span> design_algorithms(self):<br>
+          &nbsp;&nbsp;&nbsp;&nbsp;return <span class="code-str">"Flowcharts & clean extensible structures designed"</span><br><br>
+          &nbsp;&nbsp;<span class="code-kw">def</span> verify_and_deploy(self):<br>
+          &nbsp;&nbsp;&nbsp;&nbsp;return <span class="code-str">"Staging validations passed. Ready for production!"</span><br><br>
           agent = RecruitCRMAgent()<br>
-          agent.run()<br><br>
+          print(agent.design_algorithms())<br>
+          print(agent.verify_and_deploy())<br><br>
           <span class="code-cmt"># say hi 👋</span><br>
           <span id="terminal-command"></span><span class="code-cursor"></span>
         </div>
@@ -283,73 +285,79 @@
   <section class="section-container animate-on-scroll" id="skills">
     <div class="neo-badge pink">● STACK.JSON</div>
     <h2 class="section-title">The Toolkit I Build With</h2>
-    <p class="section-subtitle">A curated summary of languages, machine learning tools, and SaaS backend frameworks I work with.</p>
+    <p class="section-subtitle">A curated summary of languages, web frameworks, build tools, databases, and core software engineering paradigms I master.</p>
 
     <div class="skills-grid">
-      <!-- Card 1: Core Programming -->
+      <!-- Card 1: Programming Languages -->
       <div class="skill-card">
         <div class="skill-card-header yellow">
-          <i class="fa-solid fa-code"></i> PROGRAMMING LANGUAGES
+          <i class="fa-solid fa-code"></i> LANGUAGES & BACKEND
         </div>
         <div class="skill-card-body">
           <div class="skill-pill"><img src="static/images/icons/java.png" alt="Java"> Java (OOP)</div>
           <div class="skill-pill"><img src="static/images/icons/python.png" alt="Python"> Python (AI/ML)</div>
-          <div class="skill-pill"><img src="static/images/icons/typescript.svg" alt="TypeScript"> TypeScript</div>
-          <div class="skill-pill"><img src="static/images/icons/JavaScript.png" alt="JavaScript"> JavaScript</div>
-          <div class="skill-pill"><img src="static/images/icons/sql.png" alt="SQL"> SQL (MySQL, Postgres)</div>
+          <div class="skill-pill"><i class="fa-brands fa-python" style="color: #3776AB;"></i> Django Frame</div>
+          <div class="skill-pill"><i class="fa-solid fa-gem" style="color: #CC0000;"></i> Ruby & JRuby</div>
+          <div class="skill-pill"><i class="fa-solid fa-train" style="color: #CC0000;"></i> Ruby on Rails</div>
+          <div class="skill-pill"><i class="fa-solid fa-seedling" style="color: #619A31;"></i> Groovy on Grails</div>
         </div>
       </div>
 
-      <!-- Card 2: AI & Machine Learning -->
+      <!-- Card 2: UI Frameworks & Technologies -->
       <div class="skill-card">
         <div class="skill-card-header cyan">
-          <i class="fa-solid fa-brain"></i> ARTIFICIAL INTELLIGENCE & ML
+          <i class="fa-solid fa-laptop-code"></i> UI & FRONTEND TECH
         </div>
         <div class="skill-card-body">
-          <div class="skill-pill"><i class="fa-solid fa-chart-line" style="color: var(--cyan);"></i> LightGBM Pipelines</div>
-          <div class="skill-pill"><i class="fa-solid fa-table" style="color: var(--yellow);"></i> Pandas & NumPy</div>
-          <div class="skill-pill"><i class="fa-solid fa-robot" style="color: var(--pink);"></i> Model Evaluation</div>
-          <div class="skill-pill"><img src="static/images/icons/agentic-ai.png" alt="Google APIs"> Google AI APIs</div>
+          <div class="skill-pill"><img src="static/images/icons/html.png" alt="HTML/CSS"> HTML5 / CSS3</div>
+          <div class="skill-pill"><i class="fa-solid fa-circle" style="color: #0769AD;"></i> jQuery Lib</div>
+          <div class="skill-pill"><i class="fa-solid fa-cube" style="color: #E2700E;"></i> Dojo Toolkit</div>
+          <div class="skill-pill"><i class="fa-solid fa-yin-yang" style="color: #7952B3;"></i> YUI Library</div>
+          <div class="skill-pill"><img src="static/images/icons/react.png" alt="React"> React / Next.js</div>
         </div>
       </div>
 
-      <!-- Card 3: Backend & SaaS Tooling -->
+      <!-- Card 3: SaaS & Version Control -->
       <div class="skill-card">
         <div class="skill-card-header pink">
-          <i class="fa-solid fa-server"></i> BACKEND & SAAS ENGINEERING
+          <i class="fa-solid fa-server"></i> INTEGRATION & VCS
         </div>
         <div class="skill-card-body">
-          <div class="skill-pill"><img src="static/images/icons/node.png" alt="Node"> Node.js / Express</div>
-          <div class="skill-pill"><i class="fa-solid fa-cloud-arrow-down" style="color: var(--cyan);"></i> REST APIs & HTTP</div>
-          <div class="skill-pill"><i class="fa-solid fa-file-code" style="color: var(--yellow);"></i> JSON & XML spec</div>
+          <div class="skill-pill"><i class="fa-solid fa-cloud-arrow-down" style="color: var(--cyan);"></i> REST APIs / HTTP</div>
+          <div class="skill-pill"><i class="fa-solid fa-file-code" style="color: var(--yellow);"></i> JSON & XML specs</div>
+          <div class="skill-pill"><i class="fa-solid fa-code-branch" style="color: #808080;"></i> SVN (Subversion)</div>
           <div class="skill-pill"><img src="static/images/icons/git.svg" alt="Git"> Git & GitHub</div>
+          <div class="skill-pill"><img src="static/images/icons/node.png" alt="Node"> Node / Express</div>
         </div>
       </div>
 
-      <!-- Card 4: Databases & Deployment -->
+      <!-- Card 4: Databases & Build Tools -->
       <div class="skill-card">
         <div class="skill-card-header yellow">
-          <i class="fa-solid fa-database"></i> DATABASES & CLOUDS
+          <i class="fa-solid fa-database"></i> DATABASES & BUILDERS
         </div>
         <div class="skill-card-body">
+          <div class="skill-pill"><img src="static/images/icons/sql.png" alt="Postgres/MySQL"> Postgres & MySQL</div>
+          <div class="skill-pill"><i class="fa-solid fa-couch" style="color: #E00000;"></i> CouchDB (NoSQL)</div>
           <div class="skill-pill"><img src="static/images/icons/mongodb.png" alt="MongoDB"> MongoDB</div>
-          <div class="skill-pill"><img src="static/images/icons/sql.png" alt="SQL"> SQL (MySQL, Postgres)</div>
-          <div class="skill-pill"><i class="fa-solid fa-cloud" style="color: var(--pink);"></i> Supabase Backend</div>
-          <div class="skill-pill"><i class="fa-solid fa-rocket" style="color: var(--cyan);"></i> Vercel & Netlify</div>
+          <div class="skill-pill"><i class="fa-solid fa-feather" style="color: #C73A3A;"></i> Apache Maven</div>
+          <div class="skill-pill"><i class="fa-solid fa-bug" style="color: #F89820;"></i> Apache Ant</div>
+          <div class="skill-pill"><i class="fa-solid fa-terminal" style="color: #2C3E50;"></i> Eclipse IDE</div>
         </div>
       </div>
 
       <!-- Card 5: Soft Skills -->
       <div class="skill-card" style="grid-column: span 2;">
         <div class="skill-card-header cyan">
-          <i class="fa-solid fa-star"></i> ANALYTICAL & LOGICAL EXCELLENCE (REMOTE READY)
+          <i class="fa-solid fa-star"></i> CORE ROLES & RESPONSIBILITIES (SOFTWARE ENGINEERING)
         </div>
         <div class="skill-card-body">
-          <div class="skill-pill"><img src="static/images/icons/problem-solving.svg" alt="Problem Solving"> Analytical thinking & logical reasoning</div>
-          <div class="skill-pill"><i class="fa-solid fa-code-compare" style="color: var(--yellow); margin-right: 8px;"></i> Building features and modules from scratch</div>
-          <div class="skill-pill"><img src="static/images/icons/communication.svg" alt="Communication"> Remote collaboration & Git workflows</div>
-          <div class="skill-pill"><img src="static/images/icons/listening.svg" alt="Listening"> Technical specification analysis</div>
-          <div class="skill-pill"><img src="static/images/icons/time.svg" alt="Time"> Flexible hours & target ownership</div>
+          <div class="skill-pill"><i class="fa-solid fa-magnifying-glass" style="color: var(--pink);"></i> Clarify requirements & identify feature gaps</div>
+          <div class="skill-pill"><i class="fa-solid fa-diagram-project" style="color: var(--yellow);"></i> Design algorithms and structured flowcharts</div>
+          <div class="skill-pill"><i class="fa-solid fa-cubes" style="color: var(--cyan);"></i> Design & implement robust, extensible code modules</div>
+          <div class="skill-pill"><i class="fa-solid fa-circle-check" style="color: var(--pink);"></i> Verify & deploy functionality to staging and production</div>
+          <div class="skill-pill"><i class="fa-solid fa-list-check" style="color: var(--yellow);"></i> Apply team estimations, code/design reviews & WBS tracking</div>
+          <div class="skill-pill"><i class="fa-solid fa-people-group" style="color: var(--cyan);"></i> Foster tech culture, sharing learnings & mentoring peers</div>
         </div>
       </div>
     </div>
